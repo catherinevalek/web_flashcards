@@ -1,0 +1,9 @@
+<% provide(:title, @card.question) %>
+<div>
+  <h1><%= @deck.name %></h1>
+  <p><%= @card.question %></p>
+  <%#= form_for [@deck, @card], :url => {:action => "check"} do |f| %>
+    <%#= f.text_field :answer %>
+    <%#= f.submit%>
+  <%# end %>
+</div>
